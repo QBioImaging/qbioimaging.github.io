@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://tmcorreia.github.io
+url: https://QBioImaging.github.io
 baseurl: /QBioImaging
-source-code: https://github.com/tmcorreia/QBioImaging
+source-code: https://github.com/QBioImaging/QBioImaging
 
 title: QBI Home
 email: teresa.correia@kcl.ac.uk
