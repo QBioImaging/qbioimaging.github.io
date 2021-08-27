@@ -1,6 +1,5 @@
 # Quantitative Bio-Imaging Lab at CCMAR 
-# 2021
-# T Correia
+T Correia, 2021
 
 ## Landing Page Jekyll theme
 
