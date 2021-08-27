@@ -1,0 +1,8 @@
+---
+layout: default
+img: OI.png
+category: research
+title: OPTIMAR ~ OPTical Imaging 🐟
+description: |
+---
+  The EU-funded [OPTIMAR](https://cordis.europa.eu/project/id/867450) project aims to investigate the specific molecular signalling pathways associated with abnormal flatfish metamorphosis using 3D optical imaging techniques.

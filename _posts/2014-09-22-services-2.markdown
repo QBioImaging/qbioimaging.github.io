@@ -1,0 +1,9 @@
+---
+layout: default
+img: CMR.png
+category: research
+title: Cardiac MRI 🧲
+description: |
+---
+  Our research is also focused on the development of accelerated acquisition, undersampled reconstruction and motion correction techniques for free-breathing cardiac Magnetic Resonance Imaging (MRI) for diagnosing cardiovascular disease. We are particularly interested in the application of these methods to 3D whole-heart coronary MRI and quantitative first-pass myocardial perfusion and their translation into clinical practice.
+ 

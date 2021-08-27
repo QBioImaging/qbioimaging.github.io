@@ -1,0 +1,8 @@
+---
+layout: default
+img: DL.png
+category: research
+title: Deep Learning 👩🏻‍💻
+description: |
+---
+Our active research projects aim to develop deep learning-based methods for image reconstruction from accelerated scans, automated detection, segmentation and classification tasks for diagnosis, prognosis, and therapy response prediction. 
