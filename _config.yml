@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: https://qbioimaging.github.io
-baseurl: 
+baseurl: QBioImaging
 source-code: https://github.com/QBioImaging/qbioimaging.github.io
 
 title: QBI Home
