@@ -6,3 +6,5 @@ title: Deep Learning 👩🏻‍💻
 description: |
 ---
 Our active research projects aim to develop deep learning-based methods for image reconstruction from accelerated scans, automated detection, segmentation and classification tasks for diagnosis, prognosis, and therapy response prediction. 
+
+**News:** Our project "Uncovering the secrets of marine fish with NVIDIA" has been awarded an 🌟 NVIDIA 🌟 Academic grant 🎉
