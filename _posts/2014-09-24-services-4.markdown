@@ -6,3 +6,6 @@ title: Educational Resources 📓
 description: |
 ---
 QBI hosts educational courses in the area of biomedical imaging, which mixes didactic lectures with hands-on tutorials and programming exercises covering, for example, the principles of tomography.
+
+
+🔗 Download files as [ZIP](https://ualg365-my.sharepoint.com/:u:/g/personal/tmcorreia_ualg_pt/ESC5cearb7BKkbXhbN2FAToBOQMx_1OIB-HvNsv56wXZ-A?e=PclBof) or [separately](https://ualg365-my.sharepoint.com/:f:/g/personal/tmcorreia_ualg_pt/EnvO84oDk9FCpMygkIGFcoIBuqathcY1fgTYA1OG11MTBQ?e=WCM2tN)
