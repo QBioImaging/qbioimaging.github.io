@@ -11,4 +11,4 @@ description: |
 **News:** <font size="3"> We have been awared a 🌟 CaixaResearch Health grant 🌟 to develop quantitative cardiac MRI methods.🎉 </font>  <br />
 <font size="3"> We will be advertising several post-doctoral and PhD positions soon 👩🏽‍⚕️👩🏻‍💻 </font> 
 
-🔗[Prompt diagnosis of coronary heart disease to prevent early mortality]([https://cordis.europa.eu/project/id/867450](https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease))
+🔗 [Prompt diagnosis of coronary heart disease to prevent early mortality](https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease)
