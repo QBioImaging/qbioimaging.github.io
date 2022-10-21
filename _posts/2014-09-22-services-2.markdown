@@ -8,5 +8,5 @@ description: |
   Our research is also focused on the development of accelerated acquisition, undersampled reconstruction and motion correction techniques for free-breathing cardiac Magnetic Resonance Imaging (MRI) for diagnosing cardiovascular disease. We are particularly interested in the application of these methods to 3D whole-heart cardiac MRI and quantitative first-pass myocardial perfusion and their translation into clinical practice.
  
 
-**News:** <font size="3"> We have been awared a 🌟 [CaixaResearch](https://www.ccmar.ualg.pt/users/tmcorreia) 🌟 to develop quantitative cardiac MRI methods.🎉 </font>  <br />
+**News:** <font size="3"> We have been awared a [Caixa](https://cordis.europa.eu/project/id/867450) to develop quantitative cardiac MRI methods.🎉 </font>  <br />
 <font size="3"> We will be advertising several post-doctoral and PhD positions soon 👩🏽‍⚕️👩🏻‍💻 </font> 
