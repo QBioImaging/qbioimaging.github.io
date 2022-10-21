@@ -9,5 +9,5 @@ description: |
  
 
 **News:** <font size="3"> We have been awared a 🌟 CaixaResearch Health grant 🌟 to develop quantitative cardiac MRI methods.🎉 </font>  <br />
-<font size="3"> We will be advertising several post-doctoral and PhD positions soon 👩🏽‍⚕️👩🏻‍💻 </font> <br />
+<font size="3"> We will be advertising several post-doctoral and PhD positions soon 👩🏽‍⚕️👩🏻‍💻 </font> 
 <sub> 🔗 [Prompt diagnosis of coronary heart disease to prevent early mortality](https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease) <sub>
