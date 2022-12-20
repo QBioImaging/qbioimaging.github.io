@@ -9,5 +9,6 @@ Our active research projects aim to develop deep learning-based methods for imag
 
 **News:** <font size="3">  Our project "Uncovering the secrets of marine fish with NVIDIA" has been awarded an 🌟 NVIDIA 🌟 Academic grant 🎉</font> 
 
-<font size="3"> 👩‍🎓 Would you like to do a PhD with us? [Check our projects](https://finder-fellowships.lacaixafoundation.org/finder)<br/> 
-🔎 Host: CCMAR | Project title/description: Microscopy </font> 
+👩‍🎓 Would you like to do a PhD with us?
+[Check our projects](https://finder-fellowships.lacaixafoundation.org/finder) \
+<font size="3">  🔎 Host: CCMAR | Project title/description: Microscopy </font>
