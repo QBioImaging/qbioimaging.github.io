@@ -8,10 +8,10 @@ description: |
   Our research is also focused on the development of accelerated acquisition, undersampled reconstruction and motion correction techniques for free-breathing cardiac Magnetic Resonance Imaging (MRI) for diagnosing cardiovascular disease. We are particularly interested in the application of these methods to 3D whole-heart cardiac MRI and quantitative first-pass myocardial perfusion and their translation into clinical practice.
  
 
-**News:** <font size="3"> We have been awared a 🌟 CaixaResearch Health grant 🌟 to develop quantitative cardiac MRI methods.🎉 </font>  <br />
-🔗 [Prompt diagnosis of coronary heart disease to prevent early mortality](https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease)
+**News:** <font size="3"> We have been awared a 🌟 CaixaResearch Health grant 🌟 to develop quantitative cardiac MRI methods.🎉<br/></font>
+<sub>🔗[Prompt diagnosis of coronary heart disease to prevent early mortality](https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease)</sub>
 
-We have several post-doctoral and PhD positions 
-[HERE](https://www.ismrm.org/jobs/j08123.pdf) 👩🏽‍⚕️👩🏻‍💻 
+<sub>We have several **Post-Doc** and **PhD** positions</sub> 
+<sub>[HERE](https://www.ismrm.org/jobs/j08123.pdf) 👩🏽‍⚕️👩🏻‍💻 </sub> 
 
 
