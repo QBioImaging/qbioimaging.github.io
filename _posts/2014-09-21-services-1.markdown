@@ -2,7 +2,19 @@
 layout: default
 img: OI.png
 category: research
-title: OPTIMAR ~ OPTical Imaging 🐟
+title: Optical Imaging 🐟
 description: |
 ---
-  The EU-funded [OPTIMAR](https://cordis.europa.eu/project/id/867450) project aims to investigate the specific molecular signalling pathways associated with abnormal flatfish metamorphosis using 3D optical imaging techniques.
+🔬 The EU-funded [OPTIMAR](https://cordis.europa.eu/project/id/867450) project aims to investigate the specific molecular signalling pathways associated with abnormal flatfish metamorphosis using 3D optical imaging techniques.
+
+🌐 The mission of the [IMAGINE](https://www.embl.org/about/info/imagine/) consortium is to develop technologies to probe structure and function of biological specimens in their natural context
+
+🛠️The [EMBRC](https://www.embrc.eu/new-funding-the-next-generation-of-marine-research-services-being-developed-for-embrcs-catalogue-will-foster-innovation/) 3D Multimodal Atlas: Sea Life from Micro to Macro project will develop cutting-edge tools to create comprehensive 3D multimodal imaging atlases of marine organisms for the global scientific community.
+
+👀 Looking for an internship, MSc or PhD research project? Potential topics:
+
+[Unraveling Coral-Symbiont Interactions Using Light Sheet Microscopy](https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-unraveling-coral-symbiont-interactions-using-light-sheet)
+
+[Exploring Cellular Architecture and Organelle Dynamics in Caulerpa Using Next-Generation Imaging Technologies](https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-exploring-cellular-architecture-and-organelle-dynamics)
+
+[Leveraging Next-Generation Imaging Technologies to Study Seagrass Pathogen Interactions](https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-leveraging-next-generation-imaging-technologies-study)
