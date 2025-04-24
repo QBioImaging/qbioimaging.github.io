@@ -9,6 +9,5 @@ Our active research projects aim to develop deep learning-based methods for imag
 
 **News:** <font size="3">  Our project "Uncovering the secrets of marine fish with NVIDIA" has been awarded an 🌟 NVIDIA 🌟 Academic grant 🎉</font> 
 
-> <sub>👩‍🎓 **Looking for an internship, MSc or PhD research project?**</sub>
-<sub>🔎 [Check our projects](https://ccmar.ualg.pt/group/quantitative-bio-imaging-lab)</sub>  <br/>
-<sub> E-mail us your application, including your topic of interest, motivation letter, CV and academic transcript </sub>
+> <sub>👩‍🎓 **Looking for an internship, MSc or PhD research project?**</sub> <br/>
+<sub>🔎 [Check our projects](https://ccmar.ualg.pt/group/quantitative-bio-imaging-lab)</sub> <sub> E-mail us your application, including your topic of interest, motivation letter, CV and academic transcript </sub>
