@@ -1,10 +1,10 @@
-mail# ----------------------- #
+# ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
-url: https://qbioimaging.github.io
-baseurl: QBioImaging
-source-code: https://github.com/QBioImaging/qbioimaging.github.io
+url: https://tmcorreia.github.io
+baseurl: /QBioImaging
+source-code: https://github.com/tmcorreia/QBioImaging
 
 title: QBI Home
 email: teresa.correia@kcl.ac.uk
@@ -27,11 +27,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: twitter
+    url: https://twitter.com/TeresaM2Correia
   - title: github
     url: https://github.com/QBioImaging
-  - title: Instagram
-    url: https://www.instagram.com/group.qbi/
-  - title: LinkedIn
-    url: https://www.linkedin.com/company/quantitative-bio-imaging-lab/
   - title: send
-    url: https://www.ccmar.ualg.pt/users/tmcorreia    
+    url: https://www.ccmar.ualg.pt/users/tmcorreia
