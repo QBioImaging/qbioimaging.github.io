@@ -1,8 +1,7 @@
 # Quantitative Bio-Imaging Lab at CCMAR 
-T Correia, 2021
+The Quantitative Bio-Imaging Lab focuses on the development of rapid imaging, motion correction, deep learning-based reconstruction, and quantification approaches for Magnetic Resonance Imaging and Optical Imaging across a broad spectrum of application fields, such as cardiology, oncology, and marine biology.
 
-
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+https://ccmar.ualg.pt/group/quantitative-bio-imaging-lab/
 ## License
 The contents of this repository are licensed under the [Apache
 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
