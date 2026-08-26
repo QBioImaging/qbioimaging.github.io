@@ -1,56 +1,95 @@
-export const researchPosts = [
-  {
-    title: 'Optical Imaging 🐟',
-    img: '/img/services/OI.png',
-    contentHtml: `
-      <p>🔬 The EU-funded <a href="https://cordis.europa.eu/project/id/867450">OPTIMAR</a> project aims to investigate the specific molecular signalling pathways associated with abnormal flatfish metamorphosis using 3D optical imaging techniques.</p>
-      <p>🌐 The mission of the <a href="https://www.embl.org/about/info/imagine/">IMAGINE</a> consortium is to develop technologies to probe structure and function of biological specimens in their natural context</p>
-      <p>🛠️The <a href="https://www.embrc.eu/new-funding-the-next-generation-of-marine-research-services-being-developed-for-embrcs-catalogue-will-foster-innovation/">EMBRC</a> 3D Multimodal Atlas: Sea Life from Micro to Macro project will develop cutting-edge tools to create comprehensive 3D multimodal imaging atlases of marine organisms for the global scientific community.</p>
-      <blockquote><sub>🔬 <strong>We're hiring!</strong> Research Fellow in Biology &amp; Microscopy
-        <a href="https://ccmar.ualg.pt/job/ccmarbincgam052025-bolsa-de-investigacao-biologia-e-bioimagem-1-vaga">PT</a>
-        <a href="https://ccmar.ualg.pt/en/job/ccmarbincgam052025-research-fellowship-biology-and-bioimaging-1-vacancy">EN</a>
-      </sub></blockquote>
-      <blockquote><sub> 👀 Looking for an internship, MSc or PhD research project? Potential topics:</sub>
-        <sub> 1. <a href="https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-unraveling-coral-symbiont-interactions-using-light-sheet">Unraveling Coral-Symbiont Interactions Using Light Sheet Microscopy</a> </sub>
-        <sub> 2. <a href="https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-exploring-cellular-architecture-and-organelle-dynamics">Exploring Cellular Architecture and Organelle Dynamics in Caulerpa Using Next-Generation Imaging Technologies</a></sub>
-        <sub> 3. <a href="https://euraxess.ec.europa.eu/jobs/hosting/msc/phd-research-opportunity-leveraging-next-generation-imaging-technologies-study">Leveraging Next-Generation Imaging Technologies to Study Seagrass Pathogen Interactions</a> </sub>
-      </blockquote>
-    `,
+export const research = {
+  eyebrow: 'Research pillars',
+  heading: ['Questions that drive', 'our research'],
+  intro:
+    'Each research line has its own scientific pressure point, but the shared ambition is the same: faster, clearer and more reliable biological insight from images.',
+  tabs: [
+    { id: 'research', label: 'Research' },
+    { id: 'software', label: 'Software & Tools' },
+  ],
+  researchCards: [
+    {
+      id: 'optical',
+      label: 'Optical Imaging',
+      question:
+        'How can we visualize entire living organisms in 3D without sacrificing speed or resolution?',
+      body: 'We develop fast, computational optical imaging methods for small organisms and marine biological systems, balancing scale, resolution and live dynamics.',
+      image: '/assets/research/optical-imaging.png',
+      imageAlt: 'Optical imaging research samples',
+    },
+    {
+      id: 'cardiac',
+      label: 'Cardiac MRI',
+      question:
+        'How can we enable 3D cardiac imaging in any patient, without the need for breath-holds?',
+      body: 'We design motion-aware reconstruction strategies for robust cardiac MRI, making high-quality 3D imaging more accessible in real clinical conditions.',
+      image: '/assets/research/cardiac-mri.png',
+      imageAlt: 'Cardiac MRI research samples',
+    },
+    {
+      id: 'deep-learning',
+      label: 'Deep Learning',
+      question: 'Can AI redefine the trade-off between scan time and image quality?',
+      body: 'We use learning-based methods for reconstruction, correction and analysis, translating complex signals into trustworthy measurements.',
+      image: '/assets/research/deep-learning.png',
+      imageAlt: 'Deep learning research samples',
+    },
+  ],
+  banner: {
+    title: 'Methods that travel across organisms, organs and scales.',
+    body: 'QBI connects marine biology, medical imaging and computational science through a shared language: images that can be reconstructed, measured and trusted.',
   },
-  {
-    title: 'Cardiac MRI 🧲',
-    img: '/img/services/CMR.png',
-    contentHtml: `
-      <p>Our research is also focused on the development of accelerated acquisition, undersampled reconstruction and motion correction techniques for free-breathing cardiac Magnetic Resonance Imaging (MRI) for diagnosing cardiovascular disease. We are particularly interested in the application of these methods to 3D whole-heart cardiac MRI and quantitative first-pass myocardial perfusion and their translation into clinical practice.</p>
-      <p><strong>News:</strong> <font size="3">We have been awared a 🌟 CaixaResearch Health grant 🌟 to develop quantitative cardiac MRI methods.🎉<br/></font></p>
-      <p><sub>🔗<a href="https://fundacionlacaixa.org/en/caixaresearch-health-research-call-2022-project-coronary-heart-disease">Prompt diagnosis of coronary heart disease to prevent early mortality</a></sub></p>
-      <p><sub>We have several <strong>MSc</strong> and <strong>PhD</strong> research projects available! 👩🏽‍⚕️👩🏻‍💻</sub></p>
-    `,
+  software: {
+    eyebrow: 'Open resources',
+    heading: 'Software & Educational Tools',
+    intro:
+      'Tools, datasets and learning resources developed at QBI — freely available for the research and educational community.',
+    tools: [
+      {
+        id: 'qbi-recon',
+        icon: 'microscope',
+        category: 'Reconstruction',
+        title: 'QBI-Recon',
+        subtitle: 'MRI & optical image reconstruction',
+        body: 'An open-source Python toolkit for iterative and learning-based image reconstruction from undersampled or noisy measurements.',
+        href: 'https://github.com/QBioImaging',
+      },
+      {
+        id: 'motion-aware',
+        icon: 'activity',
+        category: 'Cardiac MRI',
+        title: 'MotionAware',
+        subtitle: 'Cardiac motion correction',
+        body: 'A framework for estimating and correcting respiratory and cardiac motion in free-breathing 3D MRI acquisitions.',
+        href: 'https://github.com/QBioImaging',
+      },
+      {
+        id: 'unroll-net',
+        icon: 'brain',
+        category: 'Deep Learning',
+        title: 'UnrollNet',
+        subtitle: 'Unrolled deep networks for imaging',
+        body: 'Pre-trained models and training pipelines for algorithm-unrolled neural networks applied to MRI and optical imaging.',
+        href: 'https://github.com/QBioImaging',
+      },
+      {
+        id: 'bioimaging-101',
+        icon: 'book-open',
+        category: 'Educational',
+        title: 'BioImaging 101',
+        subtitle: 'Interactive course material',
+        body: 'Jupyter notebooks and guided exercises covering the fundamentals of biological imaging, from acquisition to analysis.',
+        href: 'https://github.com/QBioImaging',
+      },
+      {
+        id: 'qbi-benchmark',
+        icon: 'chart-column',
+        category: 'Dataset',
+        title: 'QBI Benchmark',
+        subtitle: 'Open imaging benchmark suite',
+        body: 'Curated datasets with ground-truth references for evaluating reconstruction quality across cardiac MRI and optical microscopy tasks.',
+        href: 'https://github.com/QBioImaging',
+      },
+    ],
   },
-  {
-    title: 'Deep Learning 👩🏻‍💻',
-    img: '/img/services/DL.png',
-    contentHtml: `
-      <p>Our active research projects aim to develop deep learning-based methods for image reconstruction from accelerated scans, automated detection, segmentation and classification tasks for diagnosis, prognosis, and therapy response prediction.</p>
-      <p><strong>News:</strong> <font size="3">Our project "Uncovering the secrets of marine fish with NVIDIA" has been awarded an 🌟 NVIDIA 🌟 Academic grant 🎉</font></p>
-      <blockquote>
-        <sub>👩‍🎓 <strong>Looking for an internship, MSc or PhD research project?</strong></sub> <br/>
-        <sub>🔎 <a href="https://ccmar.ualg.pt/group/quantitative-bio-imaging-lab">Check our projects</a></sub>
-        <sub> E-mail us your application, including your topic of interest, motivation letter, CV and academic transcript</sub>
-      </blockquote>
-    `,
-  },
-  {
-    title: 'Educational Resources 📓',
-    img: '/img/services/Educational.png',
-    contentHtml: `
-      <p>QBI hosts educational courses in the area of biomedical imaging, which mixes didactic lectures with hands-on tutorials and programming exercises covering, for example, the principles of tomography.</p>
-      <p>🔎 Attending Science is Wondeful 2021?<br/>
-      🔗 Download our activity files as
-      <a href="https://ualg365-my.sharepoint.com/:u:/g/personal/tmcorreia_ualg_pt/EaSFyTfn4DBFsYMJ6zXLrjABXAtIRyz781KcGfXsHezVBw?e=TSTeZK">ZIP</a>
-      or
-      <a href="https://ualg365-my.sharepoint.com/:f:/g/personal/tmcorreia_ualg_pt/EnvO84oDk9FCpMygkIGFcoIBuqathcY1fgTYA1OG11MTBQ?e=WCM2tN">separately</a>
-      </p>
-    `,
-  },
-]
+}
