@@ -12,7 +12,7 @@ function ResearchUpdates() {
           <div className="research-updates__rule" aria-hidden="true" />
           <p className="research-updates__meta-label">{news.metaLabel}</p>
           <p className="research-updates__meta-text">{news.metaText}</p>
-          <a className="research-updates__cta" href={news.cta.href}>
+          <a className="btn-lab research-updates__cta" href={news.cta.href}>
             {news.cta.label}
           </a>
         </div>

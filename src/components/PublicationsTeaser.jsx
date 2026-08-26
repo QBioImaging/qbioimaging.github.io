@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import homePublicationsHtml from '../data/home-publications.html?raw'
+import homePublicationsHtml from '../data/publications/home-publications.html?raw'
 
 function PublicationsTeaser() {
   return (

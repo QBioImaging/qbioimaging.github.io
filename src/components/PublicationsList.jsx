@@ -1,5 +1,5 @@
-import journalArticlesHtml from '../data/journal-articles.html?raw'
-import conferenceProceedingsHtml from '../data/conference-proceedings.html?raw'
+import journalArticlesHtml from '../data/publications/journal-articles.html?raw'
+import conferenceProceedingsHtml from '../data/publications/conference-proceedings.html?raw'
 
 function PublicationsList() {
   return (

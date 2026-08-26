@@ -98,25 +98,8 @@
 }
 
 .site-nav__cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   min-width: 128px;
   height: 40px;
-  padding: 0 var(--space-4);
-  border-radius: var(--radius-button);
-  background-color: var(--color-teal-bright);
-  color: var(--color-surface);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease;
-}
-
-.site-nav__cta:hover {
-  background-color: var(--color-teal);
 }
 
 @media (max-width: 1024px) {

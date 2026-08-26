@@ -1,0 +1,29 @@
+/* Shared primary CTA — use on all filled action buttons */
+.btn-lab {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 156px;
+  height: 44px;
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius-button);
+  background-color: var(--color-teal-bright);
+  color: var(--color-surface);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: var(--letter-spacing-eyebrow);
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-lab:hover,
+.btn-lab:focus-visible {
+  background-color: var(--color-teal);
+  color: var(--color-surface);
+}
