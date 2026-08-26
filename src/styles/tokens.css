@@ -1,0 +1,69 @@
+:root {
+  /* Colors — Figma Page v1.1 */
+  --color-teal: #008c95;
+  --color-teal-deep: #0b5158;
+  --color-teal-mint: #70d7de;
+  --color-ink: #101617;
+  --color-ink-muted: #546a6d;
+  --color-panel-text: #cfe5e7;
+  --color-rule: #dcedee;
+  --color-surface: #ffffff;
+  --color-panel-divider: rgba(255, 255, 255, 0.22);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-eyebrow: 12px;
+  --font-size-heading: 46px;
+  --font-size-statement: 28px;
+  --font-size-body: 18px;
+  --font-size-panel-label: 12px;
+  --font-size-panel-intro: 20px;
+  --font-size-panel-title: 19px;
+  --font-size-panel-body: 14px;
+  --font-size-panel-number: 13px;
+  --line-height-heading: 52px;
+  --line-height-statement: 38px;
+  --line-height-body: 30px;
+  --line-height-panel-intro: 32px;
+  --line-height-panel-body: 22px;
+  --letter-spacing-eyebrow: 0.04em;
+
+  /* Layout */
+  --page-max: 1248px;
+  --page-gutter: 96px;
+  --radius-panel: 8px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --space-9: 64px;
+  --space-10: 86px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --page-gutter: 48px;
+    --font-size-heading: 36px;
+    --line-height-heading: 42px;
+    --font-size-statement: 22px;
+    --line-height-statement: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --page-gutter: 24px;
+    --font-size-heading: 32px;
+    --line-height-heading: 38px;
+    --font-size-statement: 20px;
+    --line-height-statement: 28px;
+    --font-size-body: 16px;
+    --line-height-body: 26px;
+  }
+}
