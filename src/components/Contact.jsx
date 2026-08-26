@@ -1,4 +1,4 @@
-import { social } from '../data/site'
+import { social } from '../data/layout/site'
 
 function Contact() {
   return (

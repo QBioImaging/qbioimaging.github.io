@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { site } from '../data/site'
+import { site } from '../data/layout/site'
 import '../styles/navbar.css'
 
 function Navbar() {
@@ -73,7 +73,7 @@ function Navbar() {
               </li>
             ))}
           </ul>
-          <a className="site-nav__cta" href={site.cta.href} onClick={() => setOpen(false)}>
+          <a className="btn-lab site-nav__cta" href={site.cta.href} onClick={() => setOpen(false)}>
             {site.cta.label}
           </a>
         </nav>

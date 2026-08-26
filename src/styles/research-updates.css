@@ -79,30 +79,7 @@
 }
 
 .research-updates__cta {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 210px;
   margin-top: var(--space-8);
-  padding: 12px 20px;
-  border: 1px solid var(--color-teal-dark);
-  border-radius: var(--radius-button);
-  font-size: var(--font-size-nav);
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: var(--letter-spacing-eyebrow);
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--color-teal-dark);
-  background: transparent;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.research-updates__cta:hover,
-.research-updates__cta:focus-visible {
-  background-color: var(--color-teal-dark);
-  color: var(--color-surface);
 }
 
 .research-updates__list {

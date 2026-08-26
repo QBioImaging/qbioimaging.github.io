@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { site } from '../data/site'
+import { site } from '../data/layout/site'
 
 function NavbarSimple() {
   return (
