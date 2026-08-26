@@ -1,0 +1,27 @@
+function About() {
+  return (
+    <section id="about" className="container content-section text-center">
+      <div className="row">
+        <div className="col-lg-8 col-lg-offset-2">
+          <br />
+          <br />
+          <h2> About QBI </h2>
+          <br />
+          <p>
+            The Quantitative Bio-Imaging Lab (QBI) is part of{' '}
+            <a href="https://www.ccmar.ualg.pt/group/quantitative-bio-imaging-lab">CCMAR</a>, which is
+            located within the <a href="https://www.ualg.pt/en/campus-maps">Gambelas Campus</a> of the
+            University of Algarve (Faro, Portugal), and conducts research in the fields of medical and
+            biological image acquisition, processing, reconstruction and analysis. This includes the
+            development of rapid imaging, motion correction, deep learning-based reconstruction and
+            quantification approaches for Magnetic Resonance Imaging and Optical Imaging for a broad
+            spectrum of application fields, such as cardiology, oncology and marine biology.
+          </p>
+          <br />
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default About
