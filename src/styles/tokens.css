@@ -3,17 +3,28 @@
   --color-teal: #008c95;
   --color-teal-deep: #0b5158;
   --color-teal-mint: #70d7de;
+  --color-teal-bright: #1eb6bb;
+  --color-teal-dark: #09464e;
   --color-ink: #101617;
+  --color-ink-soft: #446264;
   --color-ink-muted: #546a6d;
   --color-panel-text: #cfe5e7;
   --color-rule: #dcedee;
+  --color-hero-rule: #caeceb;
+  --color-mint: #d8fbf9;
   --color-surface: #ffffff;
   --color-panel-divider: rgba(255, 255, 255, 0.22);
+  --color-hero-overlay: rgba(9, 70, 78, 0.78);
+  --color-hero-shadow: rgba(5, 31, 33, 0.14);
 
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-size-eyebrow: 12px;
   --font-size-heading: 46px;
+  --font-size-hero-title: 60px;
+  --font-size-hero-tagline: 32px;
+  --font-size-hero-body: 17px;
+  --font-size-nav: 13px;
   --font-size-statement: 28px;
   --font-size-body: 18px;
   --font-size-panel-label: 12px;
@@ -22,6 +33,9 @@
   --font-size-panel-body: 14px;
   --font-size-panel-number: 13px;
   --line-height-heading: 52px;
+  --line-height-hero-title: 66px;
+  --line-height-hero-tagline: 38px;
+  --line-height-hero-body: 27px;
   --line-height-statement: 38px;
   --line-height-body: 30px;
   --line-height-panel-intro: 32px;
@@ -32,6 +46,10 @@
   --page-max: 1248px;
   --page-gutter: 96px;
   --radius-panel: 8px;
+  --radius-hero-media: 28px;
+  --radius-pill: 19px;
+  --radius-button: 7px;
+  --nav-height: 96px;
 
   /* Spacing */
   --space-1: 4px;
@@ -51,6 +69,10 @@
     --page-gutter: 48px;
     --font-size-heading: 36px;
     --line-height-heading: 42px;
+    --font-size-hero-title: 44px;
+    --line-height-hero-title: 50px;
+    --font-size-hero-tagline: 26px;
+    --line-height-hero-tagline: 32px;
     --font-size-statement: 22px;
     --line-height-statement: 30px;
   }
@@ -61,9 +83,16 @@
     --page-gutter: 24px;
     --font-size-heading: 32px;
     --line-height-heading: 38px;
+    --font-size-hero-title: 36px;
+    --line-height-hero-title: 42px;
+    --font-size-hero-tagline: 22px;
+    --line-height-hero-tagline: 28px;
+    --font-size-hero-body: 16px;
+    --line-height-hero-body: 26px;
     --font-size-statement: 20px;
     --line-height-statement: 28px;
     --font-size-body: 16px;
     --line-height-body: 26px;
+    --nav-height: 72px;
   }
 }

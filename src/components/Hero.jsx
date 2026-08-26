@@ -1,31 +1,47 @@
-import { site, social } from '../data/site'
+import { hero } from '../data/hero'
+import HeroWave from './HeroWave'
+import '../styles/hero.css'
 
 function Hero() {
   return (
-    <section id="home">
-      <div className="intro-header">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="intro-message">
-                <h1>{site.title}</h1>
-                <h3>{site.subTitle}</h3>
-                <hr className="intro-divider" />
-                <ul className="list-inline intro-social-buttons">
-                  {social.map((item) => (
-                    <li key={item.title}>
-                      <a href={item.url} className="btn btn-default btn-lg">
-                        <i className={`fa fa-${item.title} fa-fw`}></i>{' '}
-                        <span className="network-name">{item.title}</span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
+    <section id="home" className="hero">
+      <div className="hero__inner">
+        <div className="hero__copy">
+          <p className="hero__eyebrow">{hero.eyebrow}</p>
+          <h1 className="hero__title">
+            {hero.heading.map((line) => (
+              <span key={line} className="hero__title-line">
+                {line}
+              </span>
+            ))}
+          </h1>
+          <p className="hero__tagline">
+            {hero.tagline.map((line) => (
+              <span key={line} className="hero__tagline-line">
+                {line}
+              </span>
+            ))}
+          </p>
+          <p className="hero__body">{hero.body}</p>
+          <ul className="hero__pills">
+            {hero.pills.map((pill) => (
+              <li key={pill.label}>
+                <span className={`hero__pill hero__pill--${pill.variant}`}>{pill.label}</span>
+              </li>
+            ))}
+          </ul>
         </div>
+
+        <figure className="hero__media">
+          <img className="hero__photo" src={hero.media.src} alt={hero.media.alt} />
+          <figcaption className="hero__caption">
+            <p className="hero__caption-title">{hero.media.caption}</p>
+            <p className="hero__caption-meta">{hero.media.meta}</p>
+          </figcaption>
+        </figure>
       </div>
+
+      <HeroWave />
     </section>
   )
 }
