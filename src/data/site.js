@@ -1,7 +1,19 @@
 export const site = {
+  logo: '/assets/brand/logo-qbi.png',
+  logoAlt: 'Quantitative Bio-Imaging Lab',
   navTitle: 'QBI Home',
   title: 'Quantitative Bio-Imaging Lab',
   subTitle: '📍 CCMAR - Portugal',
+  navLinks: [
+    { href: '#research', label: 'Research' },
+    { href: '#about', label: 'About' },
+    { href: '#news', label: 'Lab News' },
+    { href: '#publications', label: 'Publications' },
+  ],
+  cta: {
+    label: 'JOIN THE LAB',
+    href: '#contact',
+  },
 }
 
 export const social = [
