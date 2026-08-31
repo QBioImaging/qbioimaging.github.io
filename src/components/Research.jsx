@@ -1,4 +1,4 @@
-import { useId, useState } from 'react'
+import { useEffect, useId, useState } from 'react'
 import {
   Activity,
   ArrowRight,
@@ -26,10 +26,20 @@ function SoftwareIcon({ name }) {
 }
 
 function Research() {
-  const [activeTab, setActiveTab] = useState('research')
+  const [activeTab, setActiveTab] = useState(() =>
+    window.location.hash === '#software' ? 'software' : 'research',
+  )
   const baseId = useId()
-  const researchPanelId = `${baseId}-research`
-  const softwarePanelId = `${baseId}-software`
+
+  useEffect(() => {
+    const applyHash = () => {
+      if (window.location.hash === '#software') setActiveTab('software')
+      if (window.location.hash === '#research') setActiveTab('research')
+    }
+
+    window.addEventListener('hashchange', applyHash)
+    return () => window.removeEventListener('hashchange', applyHash)
+  }, [])
 
   return (
     <section id="research" className="research lab-section">
@@ -58,9 +68,12 @@ function Research() {
                   id={`${baseId}-tab-${tab.id}`}
                   className={`research__tab${selected ? ' research__tab--active' : ''}`}
                   aria-selected={selected}
-                  aria-controls={tab.id === 'research' ? researchPanelId : softwarePanelId}
+                  aria-controls={tab.id === 'research' ? 'research-pillars' : 'software'}
                   tabIndex={selected ? 0 : -1}
-                  onClick={() => setActiveTab(tab.id)}
+                  onClick={() => {
+                    setActiveTab(tab.id)
+                    window.history.replaceState(null, '', tab.id === 'software' ? '#software' : '#research')
+                  }}
                 >
                   {tab.label}
                 </button>
@@ -70,7 +83,7 @@ function Research() {
         </header>
 
         <div
-          id={researchPanelId}
+          id="research-pillars"
           role="tabpanel"
           aria-labelledby={`${baseId}-tab-research`}
           className="research__panel"
@@ -99,7 +112,7 @@ function Research() {
         </div>
 
         <div
-          id={softwarePanelId}
+          id="software"
           role="tabpanel"
           aria-labelledby={`${baseId}-tab-software`}
           className="research__panel"

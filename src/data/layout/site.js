@@ -5,8 +5,15 @@ export const site = {
   title: 'Quantitative Bio-Imaging Lab',
   subTitle: '📍 CCMAR - Portugal',
   navLinks: [
-    { href: '#research', label: 'Research' },
     { href: '#about', label: 'About' },
+    {
+      href: '#research',
+      label: 'Research',
+      children: [
+        { href: '#research', label: 'Research' },
+        { href: '#software', label: 'Software & Tools' },
+      ],
+    },
     { href: '#news', label: 'Lab News' },
     { href: '#publications', label: 'Publications' },
   ],
