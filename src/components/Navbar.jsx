@@ -42,10 +42,6 @@ function Navbar() {
   }, [open])
 
   useEffect(() => {
-    if (!open) setExpanded('')
-  }, [open])
-
-  useEffect(() => {
     const onKeyDown = (event) => {
       if (event.key !== 'Escape') return
       setExpanded('')
@@ -83,7 +79,10 @@ function Navbar() {
           aria-expanded={open}
           aria-controls="site-nav-menu"
           aria-label={open ? 'Close menu' : 'Open menu'}
-          onClick={() => setOpen((value) => !value)}
+          onClick={() => {
+            setExpanded('')
+            setOpen((value) => !value)
+          }}
         >
           <span />
           <span />
