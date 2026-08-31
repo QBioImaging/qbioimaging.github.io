@@ -1,0 +1,28 @@
+.lab-section {
+  box-sizing: border-box;
+  position: relative;
+  min-height: var(--section-min-height);
+  padding: var(--space-8) 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lab-section > .section-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.lab-section--first {
+  min-height: var(--section-min-height-first);
+}
+
+.section-eyebrow {
+  margin: 0 0 var(--section-eyebrow-gap);
+}
+
+.section-heading {
+  margin: 0 0 var(--section-heading-gap);
+}

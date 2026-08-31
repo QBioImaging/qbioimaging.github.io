@@ -1,0 +1,62 @@
+.section-wave {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 56px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.section-wave__motion {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.section-wave__svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 100%;
+  display: block;
+  animation: section-wave-drift 12s linear infinite;
+}
+
+.section-wave__path {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.section-wave__path--back {
+  stroke: var(--color-teal-bright);
+  opacity: 0.2;
+}
+
+.section-wave__path--mid {
+  stroke: var(--color-teal);
+  opacity: 0.38;
+}
+
+.section-wave__path--front {
+  stroke: var(--color-teal-dark);
+  opacity: 0.55;
+}
+
+@keyframes section-wave-drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-wave__svg {
+    animation: none;
+  }
+}

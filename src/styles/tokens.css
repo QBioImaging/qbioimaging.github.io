@@ -51,6 +51,15 @@
   --radius-button: 7px;
   --nav-height: 96px;
 
+  /* Section layout — viewport chapters (space below sticky nav) */
+  --section-min-height: calc(100vh - var(--nav-height));
+  --section-min-height: calc(100dvh - var(--nav-height));
+  --section-min-height-first: var(--section-min-height);
+  --section-eyebrow-gap: var(--space-4);
+  --section-heading-gap: var(--space-5);
+  --section-content-gap: var(--space-8);
+  --section-inline-padding: var(--page-gutter);
+
   /* Spacing */
   --space-1: 4px;
   --space-2: 8px;

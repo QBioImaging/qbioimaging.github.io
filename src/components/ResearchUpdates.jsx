@@ -1,9 +1,10 @@
 import { news } from '../data/news'
+import SectionWaveDivider from './SectionWaveDivider'
 import '../styles/research-updates.css'
 
 function ResearchUpdates() {
   return (
-    <section id="news" className="research-updates">
+    <section id="news" className="research-updates lab-section">
       <div className="research-updates__inner">
         <div className="research-updates__intro">
           <p className="research-updates__eyebrow">{news.eyebrow}</p>
@@ -35,6 +36,7 @@ function ResearchUpdates() {
           ))}
         </ol>
       </div>
+      <SectionWaveDivider />
     </section>
   )
 }

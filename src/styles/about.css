@@ -1,7 +1,6 @@
 .about {
   position: relative;
   z-index: 2;
-  margin-top: -48px;
   /* Soft wash: mesh stays visible, copy gains focus after the wave. */
   background: linear-gradient(
     180deg,
@@ -10,8 +9,6 @@
     rgba(255, 255, 255, 0.78) 100%
   );
   border-top: none;
-  border-bottom: 1px solid var(--color-rule);
-  padding: calc(var(--space-10) + 40px) 0 var(--space-10);
   font-family: var(--font-sans);
 }
 
@@ -20,20 +17,40 @@
   width: 100%;
   max-width: calc(var(--page-max) + (var(--page-gutter) * 2));
   margin: 0 auto;
-  padding: 0 var(--page-gutter);
+  padding: 0 var(--section-inline-padding);
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 600px);
   gap: var(--space-8);
   align-items: start;
 }
 
-.about__copy {
+.about__main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-heading-gap);
   max-width: 560px;
-  padding-top: var(--space-2);
+}
+
+.about__header {
+  max-width: 560px;
+}
+
+.about__body {
+  max-width: 560px;
+}
+
+.about__panel {
+  align-self: start;
+  box-sizing: border-box;
+  background-color: var(--color-teal-deep);
+  border: 1px solid var(--color-teal-deep);
+  border-radius: var(--radius-panel);
+  padding: 38px 40px 40px;
+  color: var(--color-panel-text);
 }
 
 .about__eyebrow {
-  margin: 0 0 var(--space-4);
+  margin: 0 0 var(--section-eyebrow-gap);
   font-size: var(--font-size-eyebrow);
   font-weight: 600;
   line-height: 16px;
@@ -43,7 +60,7 @@
 }
 
 .about__heading {
-  margin: 0 0 var(--space-5);
+  margin: 0;
   font-size: var(--font-size-heading);
   font-weight: 700;
   line-height: var(--line-height-heading);
@@ -75,15 +92,6 @@
   font-weight: 400;
   line-height: var(--line-height-body);
   color: var(--color-ink-muted);
-}
-
-.about__panel {
-  box-sizing: border-box;
-  background-color: var(--color-teal-deep);
-  border: 1px solid var(--color-teal-deep);
-  border-radius: var(--radius-panel);
-  padding: 38px 40px 40px;
-  color: var(--color-panel-text);
 }
 
 .about__panel-label {
@@ -161,7 +169,9 @@
     gap: var(--space-7);
   }
 
-  .about__copy {
+  .about__main,
+  .about__header,
+  .about__body {
     max-width: none;
   }
 
@@ -171,10 +181,6 @@
 }
 
 @media (max-width: 640px) {
-  .about {
-    padding: var(--space-8) 0;
-  }
-
   .about__principle {
     grid-template-columns: 36px minmax(0, 1fr);
     gap: var(--space-3);
