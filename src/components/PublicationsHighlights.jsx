@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 import { publications } from '../data/publications'
+import SectionWaveDivider from './SectionWaveDivider'
 import '../styles/publications.css'
 
 function PublicationsHighlights() {
   return (
-    <section id="publications" className="publications">
+    <section id="publications" className="publications lab-section">
       <div className="publications__inner">
         <header className="publications__header">
           <p className="publications__eyebrow">{publications.eyebrow}</p>
@@ -34,6 +35,7 @@ function PublicationsHighlights() {
           </a>
         </aside>
       </div>
+      <SectionWaveDivider />
     </section>
   )
 }

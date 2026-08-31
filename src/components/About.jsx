@@ -1,22 +1,28 @@
 import { about } from '../data/about'
+import SectionWaveDivider from './SectionWaveDivider'
 import '../styles/about.css'
 
 function About() {
   return (
-    <section id="about" className="about">
+    <section id="about" className="about lab-section">
       <div className="about__inner">
-        <div className="about__copy">
-          <p className="about__eyebrow">{about.eyebrow}</p>
-          <h2 className="about__heading">
-            {about.heading.map((line) => (
-              <span key={line} className="about__heading-line">
-                {line}
-              </span>
-            ))}
-          </h2>
-          <p className="about__statement">{about.statement}</p>
-          <div className="about__accent" aria-hidden="true" />
-          <p className="about__note">{about.note}</p>
+        <div className="about__main">
+          <div className="about__header">
+            <p className="about__eyebrow">{about.eyebrow}</p>
+            <h2 className="about__heading">
+              {about.heading.map((line) => (
+                <span key={line} className="about__heading-line">
+                  {line}
+                </span>
+              ))}
+            </h2>
+          </div>
+
+          <div className="about__body">
+            <p className="about__statement">{about.statement}</p>
+            <div className="about__accent" aria-hidden="true" />
+            <p className="about__note">{about.note}</p>
+          </div>
         </div>
 
         <aside className="about__panel">
@@ -36,6 +42,7 @@ function About() {
           </ul>
         </aside>
       </div>
+      <SectionWaveDivider />
     </section>
   )
 }

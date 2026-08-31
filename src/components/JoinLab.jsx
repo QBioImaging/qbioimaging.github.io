@@ -3,7 +3,7 @@ import '../styles/join.css'
 
 function JoinLab() {
   return (
-    <section id="contact" className="join">
+    <section id="contact" className="join lab-section">
       <div className="join__inner">
         <div className="join__top">
           <div className="join__copy">

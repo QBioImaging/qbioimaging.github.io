@@ -7,9 +7,7 @@
     rgba(255, 255, 255, 0.78) 100%
   );
   border-top: none;
-  border-bottom: 1px solid var(--color-rule);
   font-family: var(--font-sans);
-  padding: var(--space-10) 0;
 }
 
 .research-updates__inner {
@@ -17,7 +15,7 @@
   width: 100%;
   max-width: calc(var(--page-max) + (var(--page-gutter) * 2));
   margin: 0 auto;
-  padding: 0 var(--page-gutter);
+  padding: 0 var(--section-inline-padding);
   display: grid;
   grid-template-columns: minmax(0, 330px) minmax(0, 1fr);
   gap: var(--space-8);
@@ -35,7 +33,7 @@
 }
 
 .research-updates__heading {
-  margin: var(--space-4) 0 0;
+  margin: var(--section-eyebrow-gap) 0 0;
   font-size: var(--font-size-heading);
   font-weight: 700;
   line-height: var(--line-height-heading);
@@ -43,7 +41,7 @@
 }
 
 .research-updates__description {
-  margin: var(--space-5) 0 0;
+  margin: var(--section-heading-gap) 0 0;
   max-width: 305px;
   font-size: var(--font-size-body);
   font-weight: 400;
@@ -156,6 +154,20 @@
   color: var(--color-ink-muted);
 }
 
+.research-updates.lab-section {
+  justify-content: flex-start;
+  padding-bottom: 0;
+  min-height: auto;
+}
+
+.research-updates.lab-section > .section-wave {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  margin-top: var(--space-8);
+}
+
 @media (max-width: 1024px) {
   .research-updates__inner {
     grid-template-columns: 1fr;
@@ -174,10 +186,6 @@
 }
 
 @media (max-width: 640px) {
-  .research-updates {
-    padding: var(--space-8) 0;
-  }
-
   .research-updates__list {
     padding: var(--space-5);
   }

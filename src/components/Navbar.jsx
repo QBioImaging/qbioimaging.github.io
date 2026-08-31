@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { site } from '../data/layout/site'
+import { scrollToSection } from '../utils/scrollToSection'
 import '../styles/navbar.css'
 
 function Navbar() {
@@ -38,7 +39,16 @@ function Navbar() {
   return (
     <header className="site-nav">
       <div className="site-nav__inner">
-        <a className="site-nav__brand" href="#home" onClick={() => setOpen(false)}>
+        <a
+          className="site-nav__brand"
+          href="#home"
+          onClick={(event) => {
+            event.preventDefault()
+            scrollToSection('#home')
+            event.currentTarget.blur()
+            setOpen(false)
+          }}
+        >
           <img src={site.logo} alt={site.logoAlt} className="site-nav__logo" />
         </a>
 
@@ -66,14 +76,28 @@ function Navbar() {
                 <a
                   className={`site-nav__link${active === link.href ? ' is-active' : ''}`}
                   href={link.href}
-                  onClick={() => setOpen(false)}
+                  onClick={(event) => {
+                    event.preventDefault()
+                    scrollToSection(link.href)
+                    event.currentTarget.blur()
+                    setOpen(false)
+                  }}
                 >
                   {link.label}
                 </a>
               </li>
             ))}
           </ul>
-          <a className="btn-lab site-nav__cta" href={site.cta.href} onClick={() => setOpen(false)}>
+          <a
+            className="btn-lab site-nav__cta"
+            href={site.cta.href}
+            onClick={(event) => {
+              event.preventDefault()
+              scrollToSection(site.cta.href)
+              event.currentTarget.blur()
+              setOpen(false)
+            }}
+          >
             {site.cta.label}
           </a>
         </nav>

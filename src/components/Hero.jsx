@@ -4,7 +4,7 @@ import '../styles/hero.css'
 
 function Hero() {
   return (
-    <section id="home" className="hero">
+    <section id="home" className="hero lab-section lab-section--first">
       <div className="hero__inner">
         <div className="hero__copy">
           <p className="hero__eyebrow">{hero.eyebrow}</p>

@@ -10,6 +10,14 @@ export const site = {
     { href: '#news', label: 'Lab News' },
     { href: '#publications', label: 'Publications' },
   ],
+  sideNavLinks: [
+    { href: '#home', label: 'Home' },
+    { href: '#about', label: 'About' },
+    { href: '#research', label: 'Research' },
+    { href: '#news', label: 'News' },
+    { href: '#publications', label: 'Publications' },
+    { href: '#contact', label: 'Join' },
+  ],
   cta: {
     label: 'JOIN THE LAB',
     href: '#contact',

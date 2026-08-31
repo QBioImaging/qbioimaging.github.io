@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import SideNav from '../components/SideNav'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Research from '../components/Research'
@@ -11,6 +12,7 @@ function HomePage() {
   return (
     <>
       <Navbar />
+      <SideNav />
       <Hero />
       <About />
       <Research />

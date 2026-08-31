@@ -8,6 +8,7 @@ import {
   Microscope,
 } from 'lucide-react'
 import { research } from '../data/research'
+import SectionWaveDivider from './SectionWaveDivider'
 import '../styles/research.css'
 
 const softwareIcons = {
@@ -31,7 +32,7 @@ function Research() {
   const softwarePanelId = `${baseId}-software`
 
   return (
-    <section id="research" className="research">
+    <section id="research" className="research lab-section">
       <div className="research__inner">
         <header className="research__header">
           <p className="research__eyebrow">{research.eyebrow}</p>
@@ -129,6 +130,7 @@ function Research() {
           </div>
         </div>
       </div>
+      <SectionWaveDivider />
     </section>
   )
 }
