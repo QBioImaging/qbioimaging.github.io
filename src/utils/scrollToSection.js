@@ -10,8 +10,13 @@ function getNavHeight() {
   return nav.getBoundingClientRect().height
 }
 
+const scrollAliases = {
+  '#software': '#research',
+}
+
 export function scrollToSection(href) {
-  const target = document.querySelector(href)
+  const scrollHref = scrollAliases[href] ?? href
+  const target = document.querySelector(scrollHref)
   if (!target) return
 
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -21,4 +26,10 @@ export function scrollToSection(href) {
     top: Math.max(0, top),
     behavior: prefersReduced ? 'auto' : 'smooth',
   })
+
+  if (window.location.hash !== href) {
+    window.history.replaceState(null, '', href)
+  }
+
+  window.dispatchEvent(new Event('hashchange'))
 }
